@@ -31,7 +31,7 @@ async def on_member_join(member):
     
     random_slowo = random.choice(list)
     embed = discord.Embed(
-    title=f"Witaj {member.name}", 
+    title=f"Welcome {member.name}", 
     description=random_world, 
     color=discord.Color.green()
     )
