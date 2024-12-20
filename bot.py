@@ -3,7 +3,6 @@ import discord
 from discord.ext import commands
 from discord import app_commands
 from discord.app_commands import Choice
-from tokeen import token
 import random
 
 #zmienne
@@ -40,4 +39,4 @@ async def on_member_join(member):
     if channel:
         await channel.send(embed=embed)
 
-bot.run(token)
+bot.run(your token)
